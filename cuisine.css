@@ -215,6 +215,14 @@
     color: var(--couleurRecette);
 }
 
+.donneeTemps
+{
+    font-family: var(--policeRecette);
+    font-size: var(--tailleTitre);
+    color: var(--couleurRecette);
+}
+
+
 
   
   input[type=number]::-webkit-inner-spin-button,
