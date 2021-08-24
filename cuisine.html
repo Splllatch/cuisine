@@ -1,0 +1,110 @@
+<!DOCTYPE html>     
+
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>101 recettes de Kevin</title>
+        <link rel="stylesheet" href="cuisine.css" />
+        <script src="cuisine.js" defer></script>
+    </head>
+
+<body>
+
+    <div class="recette">
+        <div class="titre">Catégorie :</div>
+        <div class="platPrincipal">Plat Principal</div>
+
+        <div class="titreRecette">Riz Cantonnais</div>
+
+        
+        <div class="ingredient">
+            <div class="titreIngredient" >
+                
+                <div class="titre">Ingrédients pour </div>
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="moins" >-</button>
+                <input type="number" class="nbPersonne" min="1" max="12" value="4">
+                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+                 <div class="titre">personnes </div>
+            </div>
+
+    
+            <div class="listeIngredient">
+                <li>Riz long <input  class="ingredient1" type="hidden"  value="62.5"><block  class="test" name="quantite" ></block> g</li>
+                <li>Petits pois <input  class="ingredient2" type="hidden"  value="50"><block  class="test2" class="quantite"  ></block>g</li>
+                <li>Crevettes  x <input  class="ingredient3" type="hidden" value="3"><block  class="test3" class="quantite"  ></block></li>
+                <li>Lardons <input  class="ingredient4" type="hidden" value="50"><block  class="test4" class="quantite"  ></block>g</li>
+                <li>Oeufs x <input  class="ingredient5" type="hidden" value="3"><block  class="test5" class="quantite"  ></block></li>
+                <li>Oignons doux x <input  class="ingredient6" type="hidden"  value="0.5"><block  class="test6" class="quantite"  ></block></li>
+                
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="photo">
+            <img src="riz-cantonnais-facile.jpeg" >
+        </div>
+
+        
+        <div class="details">
+            <div class="titre">Détails :</div>            
+            On prends du bon riz et on le fait cuir 
+        </div>
+
+        <div class="donnees">
+            <div class="prix">
+                <div class="titre">Prix</div>
+                <div class="donneePrix">
+                <input  class="PrixInit" type="hidden"  value="5"><block  class="donneePrixAffiche"  ></block> €</li>
+                </div>
+            </div>
+
+            <div class="difficulte">
+                <div class="titre">Difficulté</div>
+                <div class="donneeDifficulte">
+                    <input class="niveau" type="hidden"  value="1">
+                    <div class="niveau1" ></div>
+                    <div class="niveau2" ></div>
+                    <div class="niveau3" ></div>
+                </div>
+                <div class="infoNiveau"></div>
+
+            </div>
+
+            <div class="temps">
+                <div class="titre">Temps</div>
+                <div class="donneeTemps">30 min</div>
+            
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>

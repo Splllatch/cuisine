@@ -1,0 +1,253 @@
+:root
+{
+    --policeTitre : 'KG Second Chances Sketch';
+    --policeRecette : 'Stay and Shine';
+    --tailleTitre : 25px;
+    --couleurRecette : rgb(236, 144, 24);
+}
+
+
+
+@font-face
+{
+   font-family: 'Stay and Shine';
+   src: url("stay_and_shine/Stay\ and\ Shine.ttf");
+}
+
+
+@font-face
+{
+   font-family: 'KG Second Chances Sketch';
+   src: url("kg_second_chances/KGSecondChancesSketch.ttf");
+}
+
+
+.recette
+{
+    height: 700px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid green;
+    margin: auto;
+    
+}
+
+.platPrincipal
+{
+    height: 50px;
+    width: 80%;
+    font-weight: bold;
+    font-family: var(--policeRecette);
+    font-size: var(--tailleTitre);
+    color : var(--couleurRecette);
+    margin-top: 2px;
+    margin-left: 5px;
+    
+    
+}
+
+.titreRecette
+{
+    height: 75px;
+    width: 80%;
+    text-align: center;
+    font-size: 55px;
+    color : var(--couleurRecette);
+    font-family: var(--policeRecette);
+    
+}
+
+.ingredient
+{
+    height: 250px;
+    width: 500px;
+}
+
+.titreIngredient
+{
+    display: flex;
+}
+
+
+.nbPersonne
+{
+    border : none;
+    font-family: var(--policeTitre);
+    font-size: var(--tailleTitre);
+    color: var(--couleurRecette);
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+}
+
+.listeIngredient
+{
+    margin-left : 5px;
+    margin-top: 10px;
+}
+
+ .test ,.test2, .test3, .test4, .test5, .test6
+{
+    border : none;
+    width: 30px;
+    color: var(--couleurRecette);
+    font-weight: bold;
+}
+
+
+
+
+
+.titre
+{
+    font-family: var(--policeTitre);
+    font-size: var(--tailleTitre);
+
+}
+
+
+
+.photo
+{
+    height: 250px;
+    text-align: center;
+
+}
+
+.photo img
+{
+    height: 250px;
+    border-radius: 5px;
+    border : solid thin grey;
+    
+    
+    
+}
+
+.donnees
+{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-top : 15px;
+}
+
+.details
+{
+    width: 80%;
+    align-items: left;
+}
+
+.prix, .difficulte, .temps
+{
+    width: 25%;
+    text-align: center ;
+}
+
+.donneePrix, .donneeDifficulte, .donneeTemps
+{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.donneeDifficulte
+{
+    display: flex;
+    justify-content: space-around;
+    width: 120px;
+    margin: auto;
+    align-items: baseline;
+
+}
+
+
+.niveau1
+{
+    width: 20px;
+    height: 30px;
+    border: solid grey;
+    margin-top: 10px;
+}
+
+.niveau2
+{
+    width: 20px;
+    height: 50px;
+    border: solid grey;
+    margin-top: 10px;
+}
+
+.niveau3
+{
+    width: 20px;
+    height: 70px;
+    border: solid grey;
+    margin-top: 10px;
+}
+
+.infoNiveau
+{
+    width : 120px;
+    height : 50px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: var(--policeRecette);
+    font-size: var(--tailleTitre);
+    color: var(--couleurRecette);
+   
+}
+
+.donneePrix
+{
+    color: var(--couleurRecette);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.donneePrixAffiche
+{
+    font-family: var(--policeRecette);
+    font-size: var(--tailleTitre);
+    color: var(--couleurRecette);
+}
+
+
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+  
+ .moins
+ {
+     margin-left: 10px;
+     border : none;
+     font-family: var(--policeRecette);
+     font-size: var(--tailleTitre);
+     color: var(--couleurRecette);
+     background-color: white;
+     font-weight: bold;
+     text-align: center;
+     width: 30px;
+ }
+
+ .plus
+ {
+     
+     margin-right: 10px;
+     border : none;
+     font-family: var(--policeRecette);
+     font-size: var(--tailleTitre);
+     color: var(--couleurRecette);
+     background-color: white;
+     font-weight: bold;
+     text-align: center;
+     width: 30px;
+     
+ }
+
+ 
